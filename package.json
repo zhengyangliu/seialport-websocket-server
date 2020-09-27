@@ -1,0 +1,17 @@
+{
+  "name": "seialport-websocket-server",
+  "version": "1.0.0",
+  "description": "本地串口转WebSocket服务器",
+  "main": "main.js",
+  "scripts": {
+    "server": "node ./test/server.js",
+    "client": "node ./test/client.js"
+  },
+  "author": "ArthurZheng",
+  "license": "BSD 3-Clause",
+  "dependencies": {
+    "nodejs-websocket": "^1.7.2",
+    "serialport": "^9.0.1",
+    "ws": "^7.3.1"
+  }
+}
